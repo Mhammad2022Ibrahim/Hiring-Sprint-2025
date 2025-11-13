@@ -95,7 +95,7 @@ The solution can be a **web** or **mobile** app. Use of pretrained AI/ML models 
 - Fork the repo to your own GitHub repository
 - Commit changes regularly and push all code to your repo
 - Deploy your solution to a cloud provider (make sure the URL is public)
-- Submit your solution here: [submission link]
+- Submit your solution [here](https://tally.so/r/VLEkQv)
   
 ---
 
