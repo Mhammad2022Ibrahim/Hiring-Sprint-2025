@@ -263,40 +263,6 @@ CONFIDENCE_THRESHOLD = 0.25
 
 ---
 
-## 🔧 Troubleshooting
-
-### Common Issues
-
-**1. ModuleNotFoundError**
-```bash
-# Ensure virtual environment is activated
-venv\Scripts\activate  # Windows
-source venv/bin/activate  # macOS/Linux
-
-# Reinstall dependencies
-pip install -r requirements.txt
-```
-
-**2. Unicode/Encoding Errors (Windows)**
-```bash
-# Set UTF-8 encoding
-chcp 65001
-python main.py
-```
-
-**3. Gradio TypeError**
-- Fixed in latest version
-- Uses `gr.Textbox` instead of `gr.Code` for JSON output
-
-**4. Port Already in Use**
-```bash
-# Kill process using port 7860 or 8000
-netstat -ano | findstr :7860
-taskkill /PID <process_id> /F
-```
-
----
-
 ## 📚 Additional Resources
 
 - **Roboflow Docs:** https://docs.roboflow.com
