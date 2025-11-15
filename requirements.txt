@@ -1,0 +1,19 @@
+# Core Dependencies
+gradio==5.9.1
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# AI/ML
+inference-sdk==0.30.0
+numpy==1.26.4
+Pillow==10.4.0
+
+# Image Processing
+opencv-python==4.10.0.84
+
+# Utilities
+requests==2.32.3
+
+# Version constraints for compatibility
+huggingface-hub>=0.20.0
